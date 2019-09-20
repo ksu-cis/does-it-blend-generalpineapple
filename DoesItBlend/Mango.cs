@@ -13,7 +13,7 @@ namespace DoesItBlend
         /// Blends the mango
         /// </summary>
         /// <returns>The result of blending a mango</returns>
-        public string Blend()
+        public override string Blend()
         {
             return "Orange Oddness";
         }
